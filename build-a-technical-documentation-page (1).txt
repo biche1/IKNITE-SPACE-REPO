@@ -1,0 +1,44 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @media (min-width: 768px) {
+        .nav-bar{
+          right:auto;
+          left:0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main-doc">
+      <section class="main-section" id="Dogs"><header>Dogs</header><p></p> <p></p> <code></code></section>
+      <section class="main-section" id="Cats"><header>Cats</header><p></p> <p></p> <code></code></section>
+      <section class="main-section" id="Pigs"><header>Pigs</header><p></p> <p></p> <code></code></section>
+      <section class="main-section" id="Goats"><header>Goats</header><p></p> <p></p> <code></code></section>
+      <section class="main-section" id="Horses"><header>Horses</header><p></p> <p></p> <code></code>
+      <nav id="navbar">
+        <header>Domestic Animals</header>
+        <ul>
+        <li><a href="#Dogs" class="nav-link">Dogs</a></li>
+        <li><a href="#Cats" class="nav-link">Cats</a></li>
+        <li><a href="#Pigs" class="nav-link">Pigs</a></li>
+        <li><a href="#Goats" class="nav-link">Goats</a></li>
+        <li><a href="#Horses" class="nav-link">Horses</a></li>
+        </ul>
+      </nav>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

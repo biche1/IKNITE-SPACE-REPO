@@ -1,0 +1,37 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> My first Project</title>
+  </head>
+  <body>
+    <h1 id="title"> SURVEY FORM </h1>
+    <p id="description"> This is my first Project on Freecodecamp and it is going great</p>
+    <form id="survey-form">
+     <label id="name-label">Enter your name here:<input id="name" type="text" placeholder="John Doe" required > </label>
+    <label id="email-label"> Enter your email here:<input id="email" type="email" placeholder="Mary Jane" required > </label>
+     <label id="number-label"> Enter your number here:<input id="number" type="number" min="0" max="100000" placeholder="67930648" required > </label>
+     <select id="dropdown">
+       <option></option>
+       <option></option>
+     </select>
+<input type="radio" name="radioop" value="radio1">
+<input type="radio" name="radioop" value="radio2">
+<input type="checkbox" value="business">
+<input type="checkbox" value="personal">
+<input type="checkbox" value="company">
+<textarea placeholder="Enter your comments here"></textarea>
+<button id="submit" value="submit" name="submit">Submit
+    </form>
+
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

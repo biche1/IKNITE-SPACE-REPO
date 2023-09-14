@@ -1,0 +1,59 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      @media (max-width: 760px){
+        .navbar {
+          padding: 5px 0;
+        }
+      }
+
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+        <img src="#" id="header-img">
+        <nav id="nav-bar">
+          <a href="#sec1" class="nav-link"></a>
+          <a href="#sec2" class="nav-link"></a>
+          <a href="#sec3" class="nav-link"></a>
+        </nav>
+        <video width="600" id="video" height="380" controls >
+          <source src="video.mp4" type="video/mp4" >
+    <form id="form" action="https://www.freecodecamp.com/email-submit" >
+      <input value="x" type="email" name="email" placeholder="enter email" id="email"/>
+      <input type="submit" value="submit" id="submit">
+    </form>
+    </header>
+    <section id="sec1"></section>
+    <section id="sec2"></section>
+    <section id="sec3"></section>
+    <div class="box">
+    <div classs="boxes"></div>
+     <div classs="boxes"></div>
+     </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.box {
+  display: flex;
+}
+
+** end of undefined **
+
