@@ -11,7 +11,7 @@ body {
 
     display: grid;
 
-    grid-template-columns: 2/3fr 1fr 1fr ;
+    grid-template-columns: 1fr 5fr 2fr;
     grid-template-rows: 1fr;
     gap: none;
 
@@ -374,7 +374,7 @@ h5 {
 
 .hover ,.button-group > button {
     border: 0;
-    padding: 10px;
+    padding: 5px;
     flex: 1;
     background-color: rgb(208, 208, 247);
     font-weight: 600;
@@ -388,14 +388,14 @@ h5 {
 .button-group > button:hover{
     color:rgb(60, 60, 215);
     border: 0;
-    padding: 10px;
+    padding: 5px;
     flex: 1;
     background-color: rgba(118, 118, 193, 0.75);
 }
 .hover:hover {
     color:rgb(60, 60, 215);
     border: 0;
-    padding: 10px;
+    padding: 5px;
     flex: 1;
     background-color: rgba(118, 118, 193, 0.75);
 }
@@ -445,6 +445,7 @@ h5 {
     color: white;
     transition: width 0.3s;
     gap: 5px;
+    padding: 5px;
 
 }
 .menu-button-div:hover{
@@ -452,8 +453,9 @@ h5 {
     width: fit-content;
     height: fit-content;
     cursor: pointer;
-    padding: 5px;
     border-radius: 5px;
+    padding: 5px;
+    
 
 }
 
@@ -577,4 +579,32 @@ h5 {
     cursor: pointer;
     border-radius: 5px;
     padding: 5px;
+}
+
+@media screen and(max-width: 768px){
+    .menu-icon {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+    }
+
+}
+@media screen and (max-width:768px){
+    .menu-icon{
+        display: flex;
+    } 
+    .menu-button-div{
+        display: none;
+    }
+    .grid2 {
+
+        flex-direction: column;
+    }
 }
