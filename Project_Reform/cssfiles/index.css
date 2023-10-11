@@ -1,0 +1,1192 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    width:fit-content;
+    height: fit-content;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1/4fr;
+    grid-template-rows: 1fr;
+    gap: none;
+
+}
+.cfxlogo {
+    display: flex;
+    
+}
+.logo {
+    padding: 10px 10px;
+}
+.cfx {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.divider {
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+.featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.searchbar {
+    display: flex;
+    border-radius: 5px;
+    width: 300px;
+    background-color: white;
+
+}
+input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 8px;
+}
+.search-icon {
+    border: none;
+    color: #000;
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+}
+.search-icon:hover {
+    background-color: rgba(255,255,255, 0.2);
+}
+.bartext {
+    padding-left: 20px;
+
+}
+
+.bartext h4 {
+    padding-block: 8px;
+    color: white;
+
+    
+}
+span {
+    color: white;
+}
+.text {
+    padding-right: 12px;
+}
+.grid1 {
+    min-height: 100vh;
+    background-color: rgb(31, 31, 183);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: center;
+
+}
+.grid2 {
+    background-color: rgb(247, 243, 237);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-template-rows: 4 ;
+    padding-right: 3px;
+    padding-left: 30px;
+}
+.grid3 {
+    width: fit-content;
+    background-color: white;
+    grid-column-start: 3;
+    display: none;
+    grid-column-end: 4 ;
+    padding-inline: 1rem;
+    padding-left: 0px;
+}
+.blockgrid {
+    display: flex;
+    gap: 20px;
+    color: white
+}
+.purple {
+    min-width: 170px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 7px;
+    padding: 10px;
+    line-height: 0.5px; 
+    overflow: hidden;
+}
+
+.peach {
+    min-width: 160px;
+    height: 100px;
+    background-color: rgb(240, 189, 144);
+    border-radius: 7px;
+    padding: 10px;
+    line-height: 0.5px;
+    overflow: hidden;
+}
+
+.lime {
+    min-width: 170px;
+    height: 100px;
+    background-color: rgb(113, 184, 7);
+    border-radius: 7px;
+    padding: 10px;
+    line-height: 0.5px;
+    overflow: hidden;
+}
+
+
+.segments {
+    border-radius: 10px;
+    border: 1px ;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+    
+    
+}
+.segments-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 10px;
+    
+}
+
+.segments .icon-container  {
+    background-color: rgba(255, 255, 255, 0.379);
+    width:fit-content;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+   
+}
+.block1 .icon-container iconify-icon {
+    font-size: 25px;
+}
+
+.blockgrid .icon-container{
+    background-color: rgba(255, 255, 255, 0.379);
+    width:fit-content;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.minibox .icon-container{
+    background-color: rgba(255, 255, 255, 0.379);
+    width:fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+} 
+.segments iconify-icon {
+    font-size: 20px;
+
+}
+.segments, .minibox, .blockgrid iconify-icon {
+ font-size: 20px;
+ color: white;
+}
+
+.block1{
+    background-color: blue;
+    color: white;
+    margin-block:0;
+    padding-left: 8px;
+    flex:1;
+    line-height: 1px;
+    max-height: 100px;
+
+}
+
+.block2{
+    background-color: white;
+    color: black;
+    padding: 10px 5px 20px;
+    line-height: 0.5;
+    height: fit-content;
+    
+    
+}
+.block3 {
+    background-color: pink;
+    margin-block:0;
+    padding: 8px;
+    color: white;
+    flex: 1;
+    max-height: 85px;
+}
+.block4{
+    background-color: white;
+    color: black;
+    padding: 10px 5px 20px;
+    line-height: 0.5;
+
+
+}
+.block5{
+    background-color: orange;
+    margin-block:0;
+    padding: 6px;
+    color: white;
+    flex: 1;
+    max-height: 90px;
+}
+.block6{
+    background-color: white;
+    color: black;
+    padding: 10px 5px 20px;
+    line-height: 0.5;
+   
+
+}
+
+.minibox {
+    display: flex;
+    gap: 10px;
+    max-height: fit-content;
+    overflow-wrap: break-word;
+    line-height: 0;
+}
+.minipink {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    background-color: #ffc0cb;
+    border-radius: 7px;
+}
+.minipurple {
+    gap: 20px;
+    display: flex;
+    min-width: 200px;
+    background-color: rgb(99, 57, 166);
+    border-radius: 7px;
+
+}
+.minipeach {
+    gap: 20px;
+    display: flex;
+    min-width: 200px;
+    background-color: rgb(239, 177, 123);
+    border-radius: 7px;
+}
+.bartext, .logo, iconify-icon{
+    color: white;
+}
+.time {
+    float: left;
+}
+
+img {
+    border-radius: 10px;
+    width: 150px;
+    height: 90px;
+}
+.picgrid {
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    
+}
+.subscribes {
+    font-size: 12px;
+}
+.minispan {
+    padding-top: -5px;
+    align-items: center;
+    line-height: 0;
+}   
+.mini-icontainer {
+    padding: 20px 0 10px 10px;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.mini-icontainer .icon-container {
+    margin-top: -10px;
+    font-size: 20px;
+
+}
+h6 {
+    margin: 0;
+}
+.timestamp {
+    position: relative;
+    float: right;
+    top: -30px 
+}
+.peachtime {
+    top: -50px 
+}
+p {
+    font-size: 12px;
+    
+}
+.liveclass {
+    display: flex;
+    font-size: 13px;
+
+}
+.live {
+    padding: 7px 5px; 
+}
+.text-container {
+    background-color: rgba(194, 46, 46, 0.7);
+    width: 50px;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+}
+h5 {
+    line-height: 1;
+}
+.align {
+    position: relative;
+    top: -18px;
+    line-height: 1.2;
+}
+.aligndiff {
+    position: relative;
+    top: -15px;
+    line-height: 1.2;
+}
+.alignpeach{
+    position: relative;
+    top: -18px;
+    line-height: 1.2;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 4px;
+    
+}
+
+.hover ,.button-group > button {
+    border: 0;
+    padding: 5px;
+    flex: 1;
+    background-color: rgb(208, 208, 247);
+    font-weight: 600;
+    color: rgb(126, 124, 124)
+}
+.hover {
+    border-radius: 5px;
+    font-size: 10px;
+    line-break:loose
+}
+.button-group > button:hover{
+    color:rgb(60, 60, 215);
+    border: 0;
+    padding: 5px;
+    flex: 1;
+    background-color: rgba(118, 118, 193, 0.75);
+}
+.hover:hover {
+    color:rgb(60, 60, 215);
+    border: 0;
+    padding: 5px;
+    flex: 1;
+    background-color: rgba(118, 118, 193, 0.75);
+}
+.profile-pic {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-block-start: 16px;
+    
+}
+.searchgrid {
+    padding: 10px;
+}
+.profile {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.profile-text {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-right: 30px;
+
+}
+.bell-icon {
+    padding-top: 40px; 
+    padding-left: 30px;
+}
+.align-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-button-div {
+    display: flex;
+    background-color: rgb(31, 31, 183) ;
+    border: 0px;
+    font-weight: 600;
+    color: white;
+    transition: width 0.3s;
+    gap: 5px;
+    padding: 5px;
+
+}
+.menu-button-div:hover{
+    background-color: rgba(255,255,255,0.2);
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    
+
+}
+
+.menu-button-div iconify-icon {
+    font-size: 20px;
+}
+
+.icon-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.date {
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.mini-pink-btn {
+    background-color: #ffc0cb;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    line-height: 0.3;
+}
+.mini-pink-btn:hover {
+    background-color: rgba(255,255,255,0.2);
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.circlep {
+    background-color: rgb(60, 0, 128);
+    height: 90px;
+    width: 90px;
+    float: right;
+    border-radius: 50px;
+    position: relative;
+    right: -10px;
+    top: -60%;
+}
+.circlepe {
+    background-color: rgb(245, 142, 142);
+    height: 90px;
+    width: 90px;
+    float: right;
+    border-radius: 50px;
+    position: relative;
+    right: -10px;
+    top: -60%;
+}
+.circlel {
+    background-color: rgb(36, 103, 24);
+    height: 90px;
+    width: 90px;
+    float: right;
+    border-radius: 50px;
+    position: relative;
+    right: -10px;
+    top: -60%;
+}
+.block1circle{
+    background-color: rgb(50, 12, 137);
+    height: 60px;
+    width: 70px;
+    float: right;
+    border-radius: 70px;
+    position: relative;
+    top: -17%;
+    right: -16%;
+    
+}
+.block3circle {
+    background-color: rgb(228, 66, 182);
+    height: 60px;
+    width: 70px;
+    float: right;
+    border-radius: 60px;
+    position: relative;
+    top: -30%;
+    right: -22%;
+}
+
+.block5circle {
+    background-color: rgb(209, 156, 34);
+    height: 60px;
+    width: 70px;
+    float: right;
+    border-radius: 60px;
+    position: relative;
+    top: -30%;
+    right: -20%;
+}
+.text-overlay {
+    position: absolute;
+    left: 5%;
+    bottom: 35%;
+    font-size: 10px;
+
+}
+.viewall {
+    background-color: none;
+    border: none;
+    color: slategray;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.viewall:hover{
+    background-color: rgb(162, 162, 239);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+ 
+.dropdown iconify-icon {
+    color: black;
+    font: 15px;
+    position: relative;
+    top: -35px;
+    right: 25px;
+    display: none;    
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    body {
+        margin: 0;
+    }
+    
+    .container {
+        width:fit-content;
+        height: fit-content;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 5fr 1/4fr;
+        grid-template-rows: 1fr;
+        gap: none;
+    
+    }
+    .cfxlogo {
+        display: flex;
+        
+    }
+    .logo {
+        padding: 10px 10px;
+    }
+    .cfx {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .divider {
+        width: 100px;
+        height: 1px;
+        background-color: white;
+    }
+    .featured {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .searchbar {
+        display: flex;
+        border-radius: 5px;
+        width: 300px;
+        background-color: white;
+    
+    }
+    input[type="text"] {
+        flex: 1;
+        border: none;
+        padding: 8px;
+    }
+    .search-icon {
+        border: none;
+        color: #000;
+        cursor: pointer;
+        background-color: white;
+        font-size: 20px;
+    }
+    .search-icon:hover {
+        background-color: rgba(255,255,255, 0.2);
+    }
+    .bartext {
+        padding-left: 20px;
+    
+    }
+    
+    .bartext h4 {
+        padding-block: 8px;
+        color: white;
+    
+        
+    }
+    span {
+        color: white;
+    }
+    .text {
+        padding-right: 12px;
+    }
+    .grid1 {
+        min-height: 100vh;
+        background-color: rgb(31, 31, 183);
+        grid-column-start: 1;
+        grid-column-end: 2;
+        align-items: center;
+    
+    }
+    .grid2 {
+        background-color: rgb(247, 243, 237);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-template-rows: 4 ;
+        padding-right: 3px;
+        padding-left: 30px;
+    }
+    .grid3 {
+        width: fit-content;
+        background-color: white;
+        grid-column-start: 3;
+        display: none;
+        grid-column-end: 4 ;
+        padding-inline: 1rem;
+        padding-left: 0px;
+    }
+    .blockgrid {
+        display: flex;
+        gap: 20px;
+        color: white
+    }
+    .purple {
+        min-width: 170px;
+        height: 100px;
+        background-color: blueviolet;
+        border-radius: 7px;
+        padding: 10px;
+        line-height: 0.5px; 
+        overflow: hidden;
+    }
+    
+    .peach {
+        min-width: 160px;
+        height: 100px;
+        background-color: rgb(240, 189, 144);
+        border-radius: 7px;
+        padding: 10px;
+        line-height: 0.5px;
+        overflow: hidden;
+    }
+    
+    .lime {
+        min-width: 170px;
+        height: 100px;
+        background-color: rgb(113, 184, 7);
+        border-radius: 7px;
+        padding: 10px;
+        line-height: 0.5px;
+        overflow: hidden;
+    }
+    
+    
+    .segments {
+        border-radius: 10px;
+        border: 1px ;
+        width: 190px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        display: flex;
+        background-color: white;
+        
+        
+    }
+    .segments-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        gap: 10px;
+        
+    }
+    
+    .segments .icon-container  {
+        background-color: rgba(255, 255, 255, 0.379);
+        width:fit-content;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 4px;
+       
+    }
+    .block1 .icon-container iconify-icon {
+        font-size: 25px;
+    }
+    
+    .blockgrid .icon-container{
+        background-color: rgba(255, 255, 255, 0.379);
+        width:fit-content;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 4px;
+    }
+    
+    .minibox .icon-container{
+        background-color: rgba(255, 255, 255, 0.379);
+        width:fit-content;
+        height: fit-content;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 4px;
+    } 
+    .segments iconify-icon {
+        font-size: 20px;
+    
+    }
+    .segments, .minibox, .blockgrid iconify-icon {
+     font-size: 20px;
+     color: white;
+    }
+    
+    .block1{
+        background-color: blue;
+        color: white;
+        margin-block:0;
+        padding-left: 8px;
+        flex:1;
+        line-height: 1px;
+        max-height: 100px;
+    
+    }
+    
+    .block2{
+        background-color: white;
+        color: black;
+        padding: 10px 5px 20px;
+        line-height: 0.5;
+        height: fit-content;
+        
+        
+    }
+    .block3 {
+        background-color: pink;
+        margin-block:0;
+        padding: 8px;
+        color: white;
+        flex: 1;
+        max-height: 85px;
+    }
+    .block4{
+        background-color: white;
+        color: black;
+        padding: 10px 5px 20px;
+        line-height: 0.5;
+    
+    
+    }
+    .block5{
+        background-color: orange;
+        margin-block:0;
+        padding: 6px;
+        color: white;
+        flex: 1;
+        max-height: 90px;
+    }
+    .block6{
+        background-color: white;
+        color: black;
+        padding: 10px 5px 20px;
+        line-height: 0.5;
+       
+    
+    }
+    
+    .minibox {
+        display: flex;
+        gap: 10px;
+        max-height: fit-content;
+        overflow-wrap: break-word;
+        line-height: 0;
+    }
+    .minipink {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        min-width: 200px;
+        background-color: #ffc0cb;
+        border-radius: 7px;
+    }
+    .minipurple {
+        gap: 20px;
+        display: flex;
+        min-width: 200px;
+        background-color: rgb(99, 57, 166);
+        border-radius: 7px;
+    
+    }
+    .minipeach {
+        gap: 20px;
+        display: flex;
+        min-width: 200px;
+        background-color: rgb(239, 177, 123);
+        border-radius: 7px;
+    }
+    .bartext, .logo, iconify-icon{
+        color: white;
+    }
+    .time {
+        float: left;
+    }
+    
+    img {
+        border-radius: 10px;
+        width: 150px;
+        height: 90px;
+    }
+    .picgrid {
+        display: flex;
+        padding: 10px;
+        gap: 5px;
+        
+    }
+    .subscribes {
+        font-size: 12px;
+    }
+    .minispan {
+        padding-top: -5px;
+        align-items: center;
+        line-height: 0;
+    }   
+    .mini-icontainer {
+        padding: 20px 0 10px 10px;
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+    }
+    
+    .mini-icontainer .icon-container {
+        margin-top: -10px;
+        font-size: 20px;
+    
+    }
+    h6 {
+        margin: 0;
+    }
+    .timestamp {
+        position: relative;
+        float: right;
+        top: -30px 
+    }
+    .peachtime {
+        top: -50px 
+    }
+    p {
+        font-size: 12px;
+        
+    }
+    .liveclass {
+        display: flex;
+        font-size: 13px;
+    
+    }
+    .live {
+        padding: 7px 5px; 
+    }
+    .text-container {
+        background-color: rgba(194, 46, 46, 0.7);
+        width: 50px;
+        border-radius: 5px;
+        padding: 4px;
+        margin: 4px;
+    }
+    h5 {
+        line-height: 1;
+    }
+    .align {
+        position: relative;
+        top: -18px;
+        line-height: 1.2;
+    }
+    .aligndiff {
+        position: relative;
+        top: -15px;
+        line-height: 1.2;
+    }
+    .alignpeach{
+        position: relative;
+        top: -18px;
+        line-height: 1.2;
+    }
+    
+    .button-group {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 4px;
+        
+    }
+    
+    .hover ,.button-group > button {
+        border: 0;
+        padding: 5px;
+        flex: 1;
+        background-color: rgb(208, 208, 247);
+        font-weight: 600;
+        color: rgb(126, 124, 124)
+    }
+    .hover {
+        border-radius: 5px;
+        font-size: 10px;
+        line-break:loose
+    }
+    .button-group > button:hover{
+        color:rgb(60, 60, 215);
+        border: 0;
+        padding: 5px;
+        flex: 1;
+        background-color: rgba(118, 118, 193, 0.75);
+    }
+    .hover:hover {
+        color:rgb(60, 60, 215);
+        border: 0;
+        padding: 5px;
+        flex: 1;
+        background-color: rgba(118, 118, 193, 0.75);
+    }
+    .profile-pic {
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        flex-wrap: wrap;
+        margin-block-start: 16px;
+        
+    }
+    .searchgrid {
+        padding: 10px;
+    }
+    .profile {
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    .profile-text {
+        font-weight: 600;
+        padding-top: 20px;
+        padding-right: 30px;
+    
+    }
+    .bell-icon {
+        padding-top: 40px; 
+        padding-left: 30px;
+    }
+    .align-profile {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu-button-div {
+        display: flex;
+        background-color: rgb(31, 31, 183) ;
+        border: 0px;
+        font-weight: 600;
+        color: white;
+        transition: width 0.3s;
+        gap: 5px;
+        padding: 5px;
+    
+    }
+    .menu-button-div:hover{
+        background-color: rgba(255,255,255,0.2);
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 5px;
+        
+    
+    }
+    
+    .menu-button-div iconify-icon {
+        font-size: 20px;
+    }
+    
+    .icon-date {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .date {
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    
+    .mini-pink-btn {
+        background-color: #ffc0cb;
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 5px;
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        line-height: 0.3;
+    }
+    .mini-pink-btn:hover {
+        background-color: rgba(255,255,255,0.2);
+        width: fit-content;
+        height: fit-content;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .circlep {
+        background-color: rgb(60, 0, 128);
+        height: 90px;
+        width: 90px;
+        float: right;
+        border-radius: 50px;
+        position: relative;
+        right: -10px;
+        top: -60%;
+    }
+    .circlepe {
+        background-color: rgb(245, 142, 142);
+        height: 90px;
+        width: 90px;
+        float: right;
+        border-radius: 50px;
+        position: relative;
+        right: -10px;
+        top: -60%;
+    }
+    .circlel {
+        background-color: rgb(36, 103, 24);
+        height: 90px;
+        width: 90px;
+        float: right;
+        border-radius: 50px;
+        position: relative;
+        right: -10px;
+        top: -60%;
+    }
+    .block1circle{
+        background-color: rgb(50, 12, 137);
+        height: 60px;
+        width: 70px;
+        float: right;
+        border-radius: 70px;
+        position: relative;
+        top: -17%;
+        right: -16%;
+        
+    }
+    .block3circle {
+        background-color: rgb(228, 66, 182);
+        height: 60px;
+        width: 70px;
+        float: right;
+        border-radius: 60px;
+        position: relative;
+        top: -30%;
+        right: -22%;
+    }
+    
+    .block5circle {
+        background-color: rgb(209, 156, 34);
+        height: 60px;
+        width: 70px;
+        float: right;
+        border-radius: 60px;
+        position: relative;
+        top: -30%;
+        right: -20%;
+    }
+    .text-overlay {
+        position: absolute;
+        left: 5%;
+        bottom: 35%;
+        font-size: 10px;
+    
+    }
+    .viewall {
+        background-color: none;
+        border: none;
+        color: slategray;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .viewall:hover{
+        background-color: rgb(162, 162, 239);
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 5px;
+    }
+     
+    .dropdown iconify-icon {
+        color: black;
+        font: 15px;
+        position: relative;
+        top: -35px;
+        right: 25px;
+        display: none;    
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
