@@ -434,17 +434,18 @@ body {
 }
 .grid7-image img {
     border: 8px;
-    height: 400px;
-    width: 350px
+    height: 350px;
+    width: 300px
 
 }
 .grid8 {
-    padding-left: 144px;
+    padding-left: 100px;
+    padding-right: 144px;
+
 }
 .grid8-img {
     display: flex;
-    padding-left: 70px;
-    padding-right: 78px;
+    gap: 20px;
    
 }
 .grid8-img img {
@@ -454,6 +455,7 @@ body {
 .grid8-mini {
     word-wrap: break-word;
     width: 400px;
+    height: 300px;
     text-align: center;
 
 }
