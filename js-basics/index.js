@@ -103,3 +103,15 @@ function showProperties(obj) {
     }
 }
 console.log(showProperties(movie));
+
+//sum limit sum
+//returns sum of all numbers that are multiples of 3 AND 5 from 0 to limit
+function sum(limit){
+    sum = 0;
+    for (i=0; i<=limit; i++){
+        if((i % 3 === 0) || (i % 5 === 0))
+        sum += i;
+    }
+    return sum;
+}
+console.log(sum(30));
