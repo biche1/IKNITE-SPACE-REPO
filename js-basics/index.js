@@ -90,3 +90,16 @@ function countTruthy(array) {
     count++;
 return count;
 }
+//sow array properties
+const movie = {
+    title : "vampire diaries",
+    releaseYear: 2011,
+    rating: 5
+}
+function showProperties(obj) {
+    for (key in obj){
+        if (typeof obj[key] ==="string")
+        console.log(key, obj[key]);
+    }
+}
+console.log(showProperties(movie));
