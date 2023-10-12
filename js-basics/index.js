@@ -21,7 +21,21 @@ function max(num1, num2) {
 function maxNum(a, b) {
     return (a>b) ? a : b;
 }
-
+//function to check if a picture is landscape or portrait
 function isLandScape(Width, height) {
     return (Width > height);
+}
+//fizzbuzz algorithm
+const output = fizzBuzz(("ape"));
+console.log(fizzBuzz("output"));
+function fizzBuzz(input){
+    if (typeof input  !== 'number')
+    return "Not a Number";
+    if (input % 3 === 0)
+    return "Fizz";
+    if (input % 5 === 0)
+    return"Buzz";
+    if ((input % 3 === 0)  && (input % 5 === 0))
+    "FizzBuzz";
+    return input;
 }
