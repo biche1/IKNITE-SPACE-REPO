@@ -63,3 +63,22 @@ function checkSpeed(speed){
 }
 
 console.log(checkSpeed(180));
+
+//showNumbers function
+//prints from a set limit to another set limit and tells if theyre odd or even 
+function showNumbers(limit){
+    for (i=0; i <= limit; i++){
+        if(i % 2 === 0) console.log(i, "EVEN");
+        else console.log(i, "ODD");
+        
+    }
+}
+console.log(showNumbers(10));
+//another implementation
+function showNumbers(limit){
+    for (i=0; i <= limit; i++){
+        const message = (i % 2 === 0 ? "EVEN" : "ODD");
+        console.log(i, message);
+    }
+    
+}
