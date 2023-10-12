@@ -82,3 +82,11 @@ function showNumbers(limit){
     }
     
 }
+//counting the number of truthy values
+function countTruthy(array) {
+   let count = 0;
+   for (let value of array)
+    if (value)
+    count++;
+return count;
+}
