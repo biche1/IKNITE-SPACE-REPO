@@ -18,6 +18,10 @@ function max(num1, num2) {
     console.log(max(3,5));
 }
 //returning the maximum of two numbers (shorter method)
-function maxnum(a, b) {
+function maxNum(a, b) {
     return (a>b) ? a : b;
+}
+
+function isLandScape(Width, height) {
+    return (Width > height);
 }
