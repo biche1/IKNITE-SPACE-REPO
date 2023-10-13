@@ -163,14 +163,57 @@ function isPrime(number) {
 
     //creating objects 
     //
-    address = {
-        street: 'a',
-        city: 'b',
-        zipcode: 'c'
-    };
-     function showAddress(address){
-            for(let key in address)
-            console.log(key, address[key]);
-        }
+//     const address = {
+//         street: 'a',
+//         city: 'b',
+//         zipcode: 'c'
+//     };
+//      function showAddress(address){
+//             for(let key in address)
+//             console.log(key, address[key]);
+//         }
     
-showAddress(address);
+// showAddress(address);
+
+// // function
+//  let address = new Address('a', 'b', 'c');
+//  console.log (address1);
+ 
+//  // factory function
+//  function createAdress(street, city, zipcode){
+//     return {
+//         street,
+//         city,
+//         cityzipcode
+//     };
+//  }
+//  //constructor function
+//  function Address (street, city, zipcode) {
+//     this.street = street;
+//     this.city = city;
+//     this.zipcode = zipcode;
+//  }
+  
+// let post = {
+//     title : 'a',
+//     body : 'b',
+//     author: 'c',
+//     views: 10,
+//     comments: [
+//         { author: 'a', body: 'b'},
+//         { author: 'c', body: 'd'},
+//     ],
+//     isLive: true
+// };
+
+//POST function
+let post = new Post('a','b','c');
+console.log(post);
+function Post(title, body, author){
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = 0;
+    this.comments = [];
+    this.isLIve = false;
+}
