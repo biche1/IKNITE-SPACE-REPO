@@ -160,3 +160,17 @@ function isPrime(number) {
         return true      
     }
     console.log(showPrimes(25));
+
+    //creating objects 
+    //
+    address = {
+        street: 'a',
+        city: 'b',
+        zipcode: 'c'
+    };
+     function showAddress(address){
+            for(let key in address)
+            console.log(key, address[key]);
+        }
+    
+showAddress(address);
