@@ -229,3 +229,9 @@ numbers.splice(2,0, 'a', 'b');
 //finding elements in an array (primitives)
 const nums = [1,3,4,5];
 console.log(nums.indexOf(1));
+//checking the index of an element  in an array
+console.log(numbers.indexOf(1) !== -1);
+//setting a point to start index search
+console.log(numbers.indexOf(1,2)); //if we want it to start at the second index
+//checking if an element exists in an array 
+console.log(numbers.includes(1));
