@@ -217,3 +217,15 @@ function Post(title, body, author){
     this.comments = [];
     this.isLIve = false;
 }
+
+// An array 
+const numbers = [3,4];
+//adding elements to the end of the array
+numbers.push(5,6);
+//adding to the beginning
+numbers.unshift(1,2);
+//adding to the middle of the array
+numbers.splice(2,0, 'a', 'b');
+//finding elements in an array (primitives)
+const nums = [1,3,4,5];
+console.log(nums.indexOf(1));
